@@ -1,0 +1,35 @@
+{
+  "name": "aviata-search-filter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --port 3000",
+    "server": "json-server --watch db.json --port 9000",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "concurrently \"yarn server\" \"yarn dev\""
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.9",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "axios": "^1.0.0",
+    "concurrently": "^7.4.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.6.0",
+    "json-server": "^0.17.0",
+    "path": "^0.12.7",
+    "pinia": "^2.0.22",
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "vite": "^3.1.0"
+  }
+}
